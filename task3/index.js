@@ -29,5 +29,25 @@
         }
         return length;
       }
-      console.log(longestChain([10, 4, 50, 1, 2, 3]));
+      console.log(longestChain([10, 8, 50, 1, 2, 3]));
       
+
+
+      /* TC
+
+      converting nums array into set takes =O(n)
+      for loop iterate over each element in array takes= O(n)
+    so Total TC= O(n) +O(n)=O(2n)= removing constant => O(n)
+
+
+    SC
+
+      The space required for the Set is O(n)
+      variables (length, chainNum, chainLength)these take constant space O(1) 
+
+      total SC= O(n)
+
+      */
+    
+  
+    

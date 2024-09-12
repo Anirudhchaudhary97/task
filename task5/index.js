@@ -16,3 +16,12 @@ function countSmaller(nums){
      return counts
  }
  console.log(countSmaller([5, 2, 6, 1]))
+
+
+
+ //1. Time Complexity
+ //  The outer loop runs n times, and for each element,
+ // the inner loop runs approximately n-i times, 
+ // total TC= O(n)*O(n-i)=== O(n^2)
+ 
+ // 2. SC= O(n) since we are using extra array counts to store result
